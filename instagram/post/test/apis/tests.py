@@ -73,7 +73,8 @@ class PostListViewTest(APILiveServerTestCase):
 
     def test_get_post_list_exclude_author_is_none(self):
         """
-        author가 None인 Post가 PostList get요청에서 제외되는지 테스트
+        post.apis.PostListqbdp 대해
+        URL reverse, resolve, 사용하고 있는 view함수가 같은지 확인
         :return:
         """
         user = self.create_user()
